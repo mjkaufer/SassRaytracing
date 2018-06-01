@@ -1,5 +1,10 @@
 # Raytracing with SASS
 
+## Features
+* Basic diffuse ray tracing
+* Define custom spheres & point light sources
+* All calculations preprocessed in SASS
+
 ## Usage
 
 * Define whatever spheres you want to raytrace in `spheres.scss`
