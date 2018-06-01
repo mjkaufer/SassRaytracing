@@ -1,33 +1,10 @@
 @import 'trig';
 @import 'consts';
 @import 'spheres';
+@import 'lights';
+@import 'util';
 
-@function dot($vector-a, $vector-b) {
-	$sum: 0;
-
-	@for $i from 1 through length($vector-a) {
-		$sum: $sum + nth($vector-a, $i) * nth($vector-b, $i);
-	}
-
-	@return $sum;
-}
-
-@function sub($vector-a, $vector-b) {
-	$vec: ();
-
-	@for $i from 1 through length($vector-a) {
-		$vec: append($vec, nth($vector-a, $i) - nth($vector-b, $i));
-	}
-
-	@return $vec;
-
-}
-
-@function distance-squared($vector) {
-	@return dot($vector, $vector);
-}
-
-@function collide($ray-direction) {
+@function collide($ray-direction, $ray-origin) {
 
 	$last-t: null;
 	$last-i: null;
@@ -36,16 +13,16 @@
 	$i: 1;
 	@each $sphere in $spheres {
 
-		$ray-origin: sub((0, 0, 0), map-get($sphere, pos));
+		$relative-ray-origin: sub($ray-origin, map-get($sphere, pos));
 
 		$a: distance-squared($ray-direction);
-		$b: 2 * dot($ray-origin, $ray-direction);
-		$c: distance-squared($ray-origin) - pow(map-get($sphere, radius), 2);
+		$b: 2 * dot($relative-ray-origin, $ray-direction);
+		$c: distance-squared($relative-ray-origin) - pow(map-get($sphere, radius), 2);
 
 		$d: $b * $b - 4 * $a * $c;
 
 		@if $d >= 0 {
-			$t: (-$b - sqrt($b * $b - 4 * $a * $c)) / ($a * 2);
+			$t: (-$b - sqrt($d)) / ($a * 2);
 
 			@if ($last-t == null or $t < $last-t) and $t >= 0 {
 				$last-t: $t;
@@ -56,34 +33,74 @@
 		$i: $i + 1;
 	}
 
-	@if $last-t != null {
-		@return ($last-t, $last-i);
+	@if $last-t == null {
+		@return (null, null, null);	
 	}
 
-	@return (null, null);
+	$closest-sphere: nth($spheres, $last-i);
+	$relative-ray-origin: sub($ray-origin, map-get($closest-sphere, pos));
+
+	$intersection-point: add(mult-scalar($ray-direction, $last-t), $relative-ray-origin);
+	$intersection-point: add(map-get($closest-sphere, pos), $intersection-point);
+
+	@return ($last-t, $last-i, $intersection-point);
+
 
 	
 }
 
-$k: tan(rad($fov));
+$k: tan(rad($fov / 2.0));
 
 $z: -1;
+$origin: (0, 0, 0);
 
 @for $r from 1 through $height {
 	@for $c from 1 through $width {
-		$x: $r * 2 * $k / $width - $k;
-		$y: $c * 2 * $k / $height - $k;
+		$x: $c * 2 * $k / $width - $k;
+		$y: -1 * ($r * 2 * $k / $height - $k);
 
-		$ray: $x, $y, $z;
+		$ray: normalize(($x, $y, $z));
 
-		$sphere-index: nth(collide($ray), 2);
+		$collision-data: collide($ray, $origin);
+
+		$sphere-index: nth($collision-data, 2);
+		$collision-position: nth($collision-data, 3);
+
+		$current-color: (0, 0, 0);
 
 		@if $sphere-index != null {
 			$sphere: nth($spheres, $sphere-index);
+			$n-vector: get-sphere-normal($sphere, $collision-position);
+			$sphere-color: map-get($sphere, col);
+
+			// $current-color: add($sphere-color, $current-color);
+
+			@each $light in $lights {
+				$light-origin: map-get($light, pos);
+				$light-direction: sub($collision-position, $light-origin);
+
+
+				$light-collision: collide($light-direction, $light-origin);
+
+				$light-collision-position: nth($light-collision, 3);
+
+				@if $light-collision-position != null {
+					$position-difference: distance-squared(sub($collision-position, $light-collision-position));
+
+					// if the collisions are basically the same, to account for floating point error
+					@if $position-difference < 0.05 {
+						$l-vector: normalize(sub($light-origin, $collision-position));
+						$light-color: mult-scalar(map-get($light, col), max(dot($l-vector, $n-vector), 0));
+						$light-color: pairwise-mult($light-color, $sphere-color);
+
+						$current-color: add($current-color, $light-color);
+					}
+				}
+			}
 
 			@if $sphere-index != null {
-				.p-#{$r}-#{$c} {
-					background-color: map-get($sphere, col) !important;
+				#p-#{$r}-#{$c} {
+					background-color: rgb(scale-to-rgb($current-color)...);
 				}
 			}	
 		}
@@ -100,7 +117,7 @@ $n: render();
 .pixel {
 	height: 2px;
 	width: 2px;
-	background-color: red;
+	background-color: rgb(scale-to-rgb($bg)...);
 	margin: 0;
 	padding: 0;
 }

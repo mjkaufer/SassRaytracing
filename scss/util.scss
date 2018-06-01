@@ -1,0 +1,59 @@
+@function dot($vector-a, $vector-b) {
+    $sum: 0;
+
+    @for $i from 1 through length($vector-a) {
+        $sum: $sum + nth($vector-a, $i) * nth($vector-b, $i);
+    }
+
+    @return $sum;
+}
+
+@function add($vector-a, $vector-b) {
+    $vec: ();
+
+    @for $i from 1 through length($vector-a) {
+        $vec: append($vec, nth($vector-a, $i) + nth($vector-b, $i));
+    }
+
+    @return $vec;
+}
+
+@function sub($vector-a, $vector-b) {
+    @return add($vector-a, mult-scalar($vector-b, -1));
+}
+
+@function mult-scalar($vector, $scalar) {
+    $vec: ();
+
+    @for $i from 1 through length($vector) {
+        $vec: append($vec, nth($vector, $i) * $scalar);
+    }
+
+    @return $vec;
+}
+
+@function distance-squared($vector) {
+    @return dot($vector, $vector);
+}
+
+@function normalize($vector) {
+    @return mult-scalar($vector, 1 / sqrt(distance-squared($vector)));
+}
+
+@function get-sphere-normal($sphere, $position) {
+    @return normalize(sub($position, map-get($sphere, pos)));
+}
+
+@function scale-to-rgb($color-vector) {
+    @return mult-scalar($color-vector, 255);
+}
+
+@function pairwise-mult($vector-a, $vector-b) {
+    $vec: ();
+
+    @for $i from 1 through length($vector-a) {
+        $vec: append($vec, nth($vector-a, $i) * nth($vector-b, $i));
+    }
+
+    @return $vec;
+}

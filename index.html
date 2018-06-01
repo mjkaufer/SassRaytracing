@@ -1,7 +1,7 @@
 <html>
 
 	<head>
-		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="build/main.css"/>
 		<title>Sass Raytracing</title>
 	</head>
 
@@ -10,8 +10,8 @@
 		<p>Add your own shapes by cloning <a href="https://github.com/mjkaufer/SassRaytracing">the repo</a> and following the instructions in the readme</p>
 
 		<script>
-			var width = 150;
-			var height = 150;
+			var width = 200;
+			var height = 200;
 			// sass indexes at 1 so we'll follow their lead
 			for (var i = 1; i <= height; i++) {
 				var row = document.createElement('div');
@@ -20,7 +20,7 @@
 				for (var j = 1; j <= width; j++) {
 					var pixel = document.createElement('div');
 					pixel.classList.add('pixel');
-					pixel.classList.add('p-' + j + '-' + i);
+					pixel.id = 'p-' + j + '-' + i;
 					row.appendChild(pixel);
 				}
 				document.body.appendChild(row);
