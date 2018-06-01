@@ -1,0 +1,2715 @@
+/*
+  from https://unindented.org/articles/trigonometry-in-sass/
+*/
+/*
+  from http://www.antimath.info/css/sass-sqrt-function/
+*/
+.p-65-74 {
+  background-color: blue !important; }
+
+.p-65-75 {
+  background-color: blue !important; }
+
+.p-65-76 {
+  background-color: blue !important; }
+
+.p-66-71 {
+  background-color: blue !important; }
+
+.p-66-72 {
+  background-color: blue !important; }
+
+.p-66-73 {
+  background-color: blue !important; }
+
+.p-66-74 {
+  background-color: blue !important; }
+
+.p-66-75 {
+  background-color: blue !important; }
+
+.p-66-76 {
+  background-color: blue !important; }
+
+.p-66-77 {
+  background-color: blue !important; }
+
+.p-66-78 {
+  background-color: blue !important; }
+
+.p-66-79 {
+  background-color: blue !important; }
+
+.p-67-69 {
+  background-color: blue !important; }
+
+.p-67-70 {
+  background-color: blue !important; }
+
+.p-67-71 {
+  background-color: blue !important; }
+
+.p-67-72 {
+  background-color: blue !important; }
+
+.p-67-73 {
+  background-color: blue !important; }
+
+.p-67-74 {
+  background-color: blue !important; }
+
+.p-67-75 {
+  background-color: blue !important; }
+
+.p-67-76 {
+  background-color: blue !important; }
+
+.p-67-77 {
+  background-color: blue !important; }
+
+.p-67-78 {
+  background-color: blue !important; }
+
+.p-67-79 {
+  background-color: blue !important; }
+
+.p-67-80 {
+  background-color: blue !important; }
+
+.p-67-81 {
+  background-color: blue !important; }
+
+.p-68-68 {
+  background-color: blue !important; }
+
+.p-68-69 {
+  background-color: blue !important; }
+
+.p-68-70 {
+  background-color: blue !important; }
+
+.p-68-71 {
+  background-color: blue !important; }
+
+.p-68-72 {
+  background-color: blue !important; }
+
+.p-68-73 {
+  background-color: blue !important; }
+
+.p-68-74 {
+  background-color: blue !important; }
+
+.p-68-75 {
+  background-color: blue !important; }
+
+.p-68-76 {
+  background-color: blue !important; }
+
+.p-68-77 {
+  background-color: blue !important; }
+
+.p-68-78 {
+  background-color: blue !important; }
+
+.p-68-79 {
+  background-color: blue !important; }
+
+.p-68-80 {
+  background-color: blue !important; }
+
+.p-68-81 {
+  background-color: blue !important; }
+
+.p-68-82 {
+  background-color: blue !important; }
+
+.p-69-67 {
+  background-color: blue !important; }
+
+.p-69-68 {
+  background-color: blue !important; }
+
+.p-69-69 {
+  background-color: blue !important; }
+
+.p-69-70 {
+  background-color: blue !important; }
+
+.p-69-71 {
+  background-color: green !important; }
+
+.p-69-72 {
+  background-color: green !important; }
+
+.p-69-73 {
+  background-color: green !important; }
+
+.p-69-74 {
+  background-color: green !important; }
+
+.p-69-75 {
+  background-color: green !important; }
+
+.p-69-76 {
+  background-color: green !important; }
+
+.p-69-77 {
+  background-color: green !important; }
+
+.p-69-78 {
+  background-color: green !important; }
+
+.p-69-79 {
+  background-color: green !important; }
+
+.p-69-80 {
+  background-color: blue !important; }
+
+.p-69-81 {
+  background-color: blue !important; }
+
+.p-69-82 {
+  background-color: blue !important; }
+
+.p-69-83 {
+  background-color: blue !important; }
+
+.p-70-67 {
+  background-color: blue !important; }
+
+.p-70-68 {
+  background-color: blue !important; }
+
+.p-70-69 {
+  background-color: green !important; }
+
+.p-70-70 {
+  background-color: green !important; }
+
+.p-70-71 {
+  background-color: green !important; }
+
+.p-70-72 {
+  background-color: green !important; }
+
+.p-70-73 {
+  background-color: green !important; }
+
+.p-70-74 {
+  background-color: green !important; }
+
+.p-70-75 {
+  background-color: green !important; }
+
+.p-70-76 {
+  background-color: green !important; }
+
+.p-70-77 {
+  background-color: green !important; }
+
+.p-70-78 {
+  background-color: green !important; }
+
+.p-70-79 {
+  background-color: green !important; }
+
+.p-70-80 {
+  background-color: green !important; }
+
+.p-70-81 {
+  background-color: green !important; }
+
+.p-70-82 {
+  background-color: blue !important; }
+
+.p-70-83 {
+  background-color: blue !important; }
+
+.p-71-66 {
+  background-color: blue !important; }
+
+.p-71-67 {
+  background-color: green !important; }
+
+.p-71-68 {
+  background-color: green !important; }
+
+.p-71-69 {
+  background-color: green !important; }
+
+.p-71-70 {
+  background-color: green !important; }
+
+.p-71-71 {
+  background-color: green !important; }
+
+.p-71-72 {
+  background-color: green !important; }
+
+.p-71-73 {
+  background-color: green !important; }
+
+.p-71-74 {
+  background-color: green !important; }
+
+.p-71-75 {
+  background-color: green !important; }
+
+.p-71-76 {
+  background-color: green !important; }
+
+.p-71-77 {
+  background-color: green !important; }
+
+.p-71-78 {
+  background-color: green !important; }
+
+.p-71-79 {
+  background-color: green !important; }
+
+.p-71-80 {
+  background-color: green !important; }
+
+.p-71-81 {
+  background-color: green !important; }
+
+.p-71-82 {
+  background-color: green !important; }
+
+.p-71-83 {
+  background-color: green !important; }
+
+.p-71-84 {
+  background-color: blue !important; }
+
+.p-72-66 {
+  background-color: green !important; }
+
+.p-72-67 {
+  background-color: green !important; }
+
+.p-72-68 {
+  background-color: green !important; }
+
+.p-72-69 {
+  background-color: green !important; }
+
+.p-72-70 {
+  background-color: green !important; }
+
+.p-72-71 {
+  background-color: green !important; }
+
+.p-72-72 {
+  background-color: green !important; }
+
+.p-72-73 {
+  background-color: green !important; }
+
+.p-72-74 {
+  background-color: green !important; }
+
+.p-72-75 {
+  background-color: green !important; }
+
+.p-72-76 {
+  background-color: green !important; }
+
+.p-72-77 {
+  background-color: green !important; }
+
+.p-72-78 {
+  background-color: green !important; }
+
+.p-72-79 {
+  background-color: green !important; }
+
+.p-72-80 {
+  background-color: green !important; }
+
+.p-72-81 {
+  background-color: green !important; }
+
+.p-72-82 {
+  background-color: green !important; }
+
+.p-72-83 {
+  background-color: green !important; }
+
+.p-72-84 {
+  background-color: green !important; }
+
+.p-73-65 {
+  background-color: green !important; }
+
+.p-73-66 {
+  background-color: green !important; }
+
+.p-73-67 {
+  background-color: green !important; }
+
+.p-73-68 {
+  background-color: green !important; }
+
+.p-73-69 {
+  background-color: green !important; }
+
+.p-73-70 {
+  background-color: green !important; }
+
+.p-73-71 {
+  background-color: green !important; }
+
+.p-73-72 {
+  background-color: green !important; }
+
+.p-73-73 {
+  background-color: green !important; }
+
+.p-73-74 {
+  background-color: green !important; }
+
+.p-73-75 {
+  background-color: green !important; }
+
+.p-73-76 {
+  background-color: green !important; }
+
+.p-73-77 {
+  background-color: green !important; }
+
+.p-73-78 {
+  background-color: green !important; }
+
+.p-73-79 {
+  background-color: green !important; }
+
+.p-73-80 {
+  background-color: green !important; }
+
+.p-73-81 {
+  background-color: green !important; }
+
+.p-73-82 {
+  background-color: green !important; }
+
+.p-73-83 {
+  background-color: green !important; }
+
+.p-73-84 {
+  background-color: green !important; }
+
+.p-73-85 {
+  background-color: green !important; }
+
+.p-74-64 {
+  background-color: green !important; }
+
+.p-74-65 {
+  background-color: green !important; }
+
+.p-74-66 {
+  background-color: green !important; }
+
+.p-74-67 {
+  background-color: green !important; }
+
+.p-74-68 {
+  background-color: green !important; }
+
+.p-74-69 {
+  background-color: green !important; }
+
+.p-74-70 {
+  background-color: green !important; }
+
+.p-74-71 {
+  background-color: green !important; }
+
+.p-74-72 {
+  background-color: green !important; }
+
+.p-74-73 {
+  background-color: green !important; }
+
+.p-74-74 {
+  background-color: green !important; }
+
+.p-74-75 {
+  background-color: green !important; }
+
+.p-74-76 {
+  background-color: green !important; }
+
+.p-74-77 {
+  background-color: green !important; }
+
+.p-74-78 {
+  background-color: green !important; }
+
+.p-74-79 {
+  background-color: green !important; }
+
+.p-74-80 {
+  background-color: green !important; }
+
+.p-74-81 {
+  background-color: green !important; }
+
+.p-74-82 {
+  background-color: green !important; }
+
+.p-74-83 {
+  background-color: green !important; }
+
+.p-74-84 {
+  background-color: green !important; }
+
+.p-74-85 {
+  background-color: green !important; }
+
+.p-74-86 {
+  background-color: green !important; }
+
+.p-75-63 {
+  background-color: green !important; }
+
+.p-75-64 {
+  background-color: green !important; }
+
+.p-75-65 {
+  background-color: green !important; }
+
+.p-75-66 {
+  background-color: green !important; }
+
+.p-75-67 {
+  background-color: green !important; }
+
+.p-75-68 {
+  background-color: green !important; }
+
+.p-75-69 {
+  background-color: green !important; }
+
+.p-75-70 {
+  background-color: green !important; }
+
+.p-75-71 {
+  background-color: green !important; }
+
+.p-75-72 {
+  background-color: green !important; }
+
+.p-75-73 {
+  background-color: green !important; }
+
+.p-75-74 {
+  background-color: green !important; }
+
+.p-75-75 {
+  background-color: green !important; }
+
+.p-75-76 {
+  background-color: green !important; }
+
+.p-75-77 {
+  background-color: green !important; }
+
+.p-75-78 {
+  background-color: green !important; }
+
+.p-75-79 {
+  background-color: green !important; }
+
+.p-75-80 {
+  background-color: green !important; }
+
+.p-75-81 {
+  background-color: green !important; }
+
+.p-75-82 {
+  background-color: green !important; }
+
+.p-75-83 {
+  background-color: green !important; }
+
+.p-75-84 {
+  background-color: green !important; }
+
+.p-75-85 {
+  background-color: green !important; }
+
+.p-75-86 {
+  background-color: green !important; }
+
+.p-75-87 {
+  background-color: green !important; }
+
+.p-76-62 {
+  background-color: green !important; }
+
+.p-76-63 {
+  background-color: green !important; }
+
+.p-76-64 {
+  background-color: green !important; }
+
+.p-76-65 {
+  background-color: green !important; }
+
+.p-76-66 {
+  background-color: green !important; }
+
+.p-76-67 {
+  background-color: green !important; }
+
+.p-76-68 {
+  background-color: green !important; }
+
+.p-76-69 {
+  background-color: green !important; }
+
+.p-76-70 {
+  background-color: green !important; }
+
+.p-76-71 {
+  background-color: green !important; }
+
+.p-76-72 {
+  background-color: green !important; }
+
+.p-76-73 {
+  background-color: green !important; }
+
+.p-76-74 {
+  background-color: green !important; }
+
+.p-76-75 {
+  background-color: green !important; }
+
+.p-76-76 {
+  background-color: green !important; }
+
+.p-76-77 {
+  background-color: green !important; }
+
+.p-76-78 {
+  background-color: green !important; }
+
+.p-76-79 {
+  background-color: green !important; }
+
+.p-76-80 {
+  background-color: green !important; }
+
+.p-76-81 {
+  background-color: green !important; }
+
+.p-76-82 {
+  background-color: green !important; }
+
+.p-76-83 {
+  background-color: green !important; }
+
+.p-76-84 {
+  background-color: green !important; }
+
+.p-76-85 {
+  background-color: green !important; }
+
+.p-76-86 {
+  background-color: green !important; }
+
+.p-76-87 {
+  background-color: green !important; }
+
+.p-76-88 {
+  background-color: green !important; }
+
+.p-77-62 {
+  background-color: green !important; }
+
+.p-77-63 {
+  background-color: green !important; }
+
+.p-77-64 {
+  background-color: green !important; }
+
+.p-77-65 {
+  background-color: green !important; }
+
+.p-77-66 {
+  background-color: green !important; }
+
+.p-77-67 {
+  background-color: green !important; }
+
+.p-77-68 {
+  background-color: green !important; }
+
+.p-77-69 {
+  background-color: green !important; }
+
+.p-77-70 {
+  background-color: green !important; }
+
+.p-77-71 {
+  background-color: green !important; }
+
+.p-77-72 {
+  background-color: green !important; }
+
+.p-77-73 {
+  background-color: green !important; }
+
+.p-77-74 {
+  background-color: green !important; }
+
+.p-77-75 {
+  background-color: green !important; }
+
+.p-77-76 {
+  background-color: green !important; }
+
+.p-77-77 {
+  background-color: green !important; }
+
+.p-77-78 {
+  background-color: green !important; }
+
+.p-77-79 {
+  background-color: green !important; }
+
+.p-77-80 {
+  background-color: green !important; }
+
+.p-77-81 {
+  background-color: green !important; }
+
+.p-77-82 {
+  background-color: green !important; }
+
+.p-77-83 {
+  background-color: green !important; }
+
+.p-77-84 {
+  background-color: green !important; }
+
+.p-77-85 {
+  background-color: green !important; }
+
+.p-77-86 {
+  background-color: green !important; }
+
+.p-77-87 {
+  background-color: green !important; }
+
+.p-77-88 {
+  background-color: green !important; }
+
+.p-78-61 {
+  background-color: green !important; }
+
+.p-78-62 {
+  background-color: green !important; }
+
+.p-78-63 {
+  background-color: green !important; }
+
+.p-78-64 {
+  background-color: green !important; }
+
+.p-78-65 {
+  background-color: green !important; }
+
+.p-78-66 {
+  background-color: green !important; }
+
+.p-78-67 {
+  background-color: green !important; }
+
+.p-78-68 {
+  background-color: green !important; }
+
+.p-78-69 {
+  background-color: green !important; }
+
+.p-78-70 {
+  background-color: green !important; }
+
+.p-78-71 {
+  background-color: green !important; }
+
+.p-78-72 {
+  background-color: green !important; }
+
+.p-78-73 {
+  background-color: green !important; }
+
+.p-78-74 {
+  background-color: green !important; }
+
+.p-78-75 {
+  background-color: green !important; }
+
+.p-78-76 {
+  background-color: green !important; }
+
+.p-78-77 {
+  background-color: green !important; }
+
+.p-78-78 {
+  background-color: green !important; }
+
+.p-78-79 {
+  background-color: green !important; }
+
+.p-78-80 {
+  background-color: green !important; }
+
+.p-78-81 {
+  background-color: green !important; }
+
+.p-78-82 {
+  background-color: green !important; }
+
+.p-78-83 {
+  background-color: green !important; }
+
+.p-78-84 {
+  background-color: green !important; }
+
+.p-78-85 {
+  background-color: green !important; }
+
+.p-78-86 {
+  background-color: green !important; }
+
+.p-78-87 {
+  background-color: green !important; }
+
+.p-78-88 {
+  background-color: green !important; }
+
+.p-78-89 {
+  background-color: green !important; }
+
+.p-79-61 {
+  background-color: green !important; }
+
+.p-79-62 {
+  background-color: green !important; }
+
+.p-79-63 {
+  background-color: green !important; }
+
+.p-79-64 {
+  background-color: green !important; }
+
+.p-79-65 {
+  background-color: green !important; }
+
+.p-79-66 {
+  background-color: green !important; }
+
+.p-79-67 {
+  background-color: green !important; }
+
+.p-79-68 {
+  background-color: green !important; }
+
+.p-79-69 {
+  background-color: green !important; }
+
+.p-79-70 {
+  background-color: green !important; }
+
+.p-79-71 {
+  background-color: green !important; }
+
+.p-79-72 {
+  background-color: green !important; }
+
+.p-79-73 {
+  background-color: green !important; }
+
+.p-79-74 {
+  background-color: green !important; }
+
+.p-79-75 {
+  background-color: green !important; }
+
+.p-79-76 {
+  background-color: green !important; }
+
+.p-79-77 {
+  background-color: green !important; }
+
+.p-79-78 {
+  background-color: green !important; }
+
+.p-79-79 {
+  background-color: green !important; }
+
+.p-79-80 {
+  background-color: green !important; }
+
+.p-79-81 {
+  background-color: green !important; }
+
+.p-79-82 {
+  background-color: green !important; }
+
+.p-79-83 {
+  background-color: green !important; }
+
+.p-79-84 {
+  background-color: green !important; }
+
+.p-79-85 {
+  background-color: green !important; }
+
+.p-79-86 {
+  background-color: green !important; }
+
+.p-79-87 {
+  background-color: green !important; }
+
+.p-79-88 {
+  background-color: green !important; }
+
+.p-79-89 {
+  background-color: green !important; }
+
+.p-80-61 {
+  background-color: green !important; }
+
+.p-80-62 {
+  background-color: green !important; }
+
+.p-80-63 {
+  background-color: green !important; }
+
+.p-80-64 {
+  background-color: green !important; }
+
+.p-80-65 {
+  background-color: green !important; }
+
+.p-80-66 {
+  background-color: green !important; }
+
+.p-80-67 {
+  background-color: green !important; }
+
+.p-80-68 {
+  background-color: green !important; }
+
+.p-80-69 {
+  background-color: green !important; }
+
+.p-80-70 {
+  background-color: green !important; }
+
+.p-80-71 {
+  background-color: green !important; }
+
+.p-80-72 {
+  background-color: green !important; }
+
+.p-80-73 {
+  background-color: green !important; }
+
+.p-80-74 {
+  background-color: green !important; }
+
+.p-80-75 {
+  background-color: green !important; }
+
+.p-80-76 {
+  background-color: green !important; }
+
+.p-80-77 {
+  background-color: green !important; }
+
+.p-80-78 {
+  background-color: green !important; }
+
+.p-80-79 {
+  background-color: green !important; }
+
+.p-80-80 {
+  background-color: green !important; }
+
+.p-80-81 {
+  background-color: green !important; }
+
+.p-80-82 {
+  background-color: green !important; }
+
+.p-80-83 {
+  background-color: green !important; }
+
+.p-80-84 {
+  background-color: green !important; }
+
+.p-80-85 {
+  background-color: green !important; }
+
+.p-80-86 {
+  background-color: green !important; }
+
+.p-80-87 {
+  background-color: green !important; }
+
+.p-80-88 {
+  background-color: green !important; }
+
+.p-80-89 {
+  background-color: green !important; }
+
+.p-81-60 {
+  background-color: green !important; }
+
+.p-81-61 {
+  background-color: green !important; }
+
+.p-81-62 {
+  background-color: green !important; }
+
+.p-81-63 {
+  background-color: green !important; }
+
+.p-81-64 {
+  background-color: green !important; }
+
+.p-81-65 {
+  background-color: green !important; }
+
+.p-81-66 {
+  background-color: green !important; }
+
+.p-81-67 {
+  background-color: green !important; }
+
+.p-81-68 {
+  background-color: green !important; }
+
+.p-81-69 {
+  background-color: green !important; }
+
+.p-81-70 {
+  background-color: green !important; }
+
+.p-81-71 {
+  background-color: green !important; }
+
+.p-81-72 {
+  background-color: green !important; }
+
+.p-81-73 {
+  background-color: green !important; }
+
+.p-81-74 {
+  background-color: green !important; }
+
+.p-81-75 {
+  background-color: green !important; }
+
+.p-81-76 {
+  background-color: green !important; }
+
+.p-81-77 {
+  background-color: green !important; }
+
+.p-81-78 {
+  background-color: green !important; }
+
+.p-81-79 {
+  background-color: green !important; }
+
+.p-81-80 {
+  background-color: green !important; }
+
+.p-81-81 {
+  background-color: green !important; }
+
+.p-81-82 {
+  background-color: green !important; }
+
+.p-81-83 {
+  background-color: green !important; }
+
+.p-81-84 {
+  background-color: green !important; }
+
+.p-81-85 {
+  background-color: green !important; }
+
+.p-81-86 {
+  background-color: green !important; }
+
+.p-81-87 {
+  background-color: green !important; }
+
+.p-81-88 {
+  background-color: green !important; }
+
+.p-81-89 {
+  background-color: green !important; }
+
+.p-81-90 {
+  background-color: green !important; }
+
+.p-82-60 {
+  background-color: green !important; }
+
+.p-82-61 {
+  background-color: green !important; }
+
+.p-82-62 {
+  background-color: green !important; }
+
+.p-82-63 {
+  background-color: green !important; }
+
+.p-82-64 {
+  background-color: green !important; }
+
+.p-82-65 {
+  background-color: green !important; }
+
+.p-82-66 {
+  background-color: green !important; }
+
+.p-82-67 {
+  background-color: green !important; }
+
+.p-82-68 {
+  background-color: green !important; }
+
+.p-82-69 {
+  background-color: green !important; }
+
+.p-82-70 {
+  background-color: green !important; }
+
+.p-82-71 {
+  background-color: green !important; }
+
+.p-82-72 {
+  background-color: green !important; }
+
+.p-82-73 {
+  background-color: green !important; }
+
+.p-82-74 {
+  background-color: green !important; }
+
+.p-82-75 {
+  background-color: green !important; }
+
+.p-82-76 {
+  background-color: green !important; }
+
+.p-82-77 {
+  background-color: green !important; }
+
+.p-82-78 {
+  background-color: green !important; }
+
+.p-82-79 {
+  background-color: green !important; }
+
+.p-82-80 {
+  background-color: green !important; }
+
+.p-82-81 {
+  background-color: green !important; }
+
+.p-82-82 {
+  background-color: green !important; }
+
+.p-82-83 {
+  background-color: green !important; }
+
+.p-82-84 {
+  background-color: green !important; }
+
+.p-82-85 {
+  background-color: green !important; }
+
+.p-82-86 {
+  background-color: green !important; }
+
+.p-82-87 {
+  background-color: green !important; }
+
+.p-82-88 {
+  background-color: green !important; }
+
+.p-82-89 {
+  background-color: green !important; }
+
+.p-82-90 {
+  background-color: green !important; }
+
+.p-83-60 {
+  background-color: green !important; }
+
+.p-83-61 {
+  background-color: green !important; }
+
+.p-83-62 {
+  background-color: green !important; }
+
+.p-83-63 {
+  background-color: green !important; }
+
+.p-83-64 {
+  background-color: green !important; }
+
+.p-83-65 {
+  background-color: green !important; }
+
+.p-83-66 {
+  background-color: green !important; }
+
+.p-83-67 {
+  background-color: green !important; }
+
+.p-83-68 {
+  background-color: green !important; }
+
+.p-83-69 {
+  background-color: green !important; }
+
+.p-83-70 {
+  background-color: green !important; }
+
+.p-83-71 {
+  background-color: green !important; }
+
+.p-83-72 {
+  background-color: green !important; }
+
+.p-83-73 {
+  background-color: green !important; }
+
+.p-83-74 {
+  background-color: green !important; }
+
+.p-83-75 {
+  background-color: green !important; }
+
+.p-83-76 {
+  background-color: green !important; }
+
+.p-83-77 {
+  background-color: green !important; }
+
+.p-83-78 {
+  background-color: green !important; }
+
+.p-83-79 {
+  background-color: green !important; }
+
+.p-83-80 {
+  background-color: green !important; }
+
+.p-83-81 {
+  background-color: green !important; }
+
+.p-83-82 {
+  background-color: green !important; }
+
+.p-83-83 {
+  background-color: green !important; }
+
+.p-83-84 {
+  background-color: green !important; }
+
+.p-83-85 {
+  background-color: green !important; }
+
+.p-83-86 {
+  background-color: green !important; }
+
+.p-83-87 {
+  background-color: green !important; }
+
+.p-83-88 {
+  background-color: green !important; }
+
+.p-83-89 {
+  background-color: green !important; }
+
+.p-83-90 {
+  background-color: green !important; }
+
+.p-84-60 {
+  background-color: green !important; }
+
+.p-84-61 {
+  background-color: green !important; }
+
+.p-84-62 {
+  background-color: green !important; }
+
+.p-84-63 {
+  background-color: green !important; }
+
+.p-84-64 {
+  background-color: green !important; }
+
+.p-84-65 {
+  background-color: green !important; }
+
+.p-84-66 {
+  background-color: green !important; }
+
+.p-84-67 {
+  background-color: green !important; }
+
+.p-84-68 {
+  background-color: green !important; }
+
+.p-84-69 {
+  background-color: green !important; }
+
+.p-84-70 {
+  background-color: green !important; }
+
+.p-84-71 {
+  background-color: green !important; }
+
+.p-84-72 {
+  background-color: green !important; }
+
+.p-84-73 {
+  background-color: green !important; }
+
+.p-84-74 {
+  background-color: green !important; }
+
+.p-84-75 {
+  background-color: green !important; }
+
+.p-84-76 {
+  background-color: green !important; }
+
+.p-84-77 {
+  background-color: green !important; }
+
+.p-84-78 {
+  background-color: green !important; }
+
+.p-84-79 {
+  background-color: green !important; }
+
+.p-84-80 {
+  background-color: green !important; }
+
+.p-84-81 {
+  background-color: green !important; }
+
+.p-84-82 {
+  background-color: green !important; }
+
+.p-84-83 {
+  background-color: green !important; }
+
+.p-84-84 {
+  background-color: green !important; }
+
+.p-84-85 {
+  background-color: green !important; }
+
+.p-84-86 {
+  background-color: green !important; }
+
+.p-84-87 {
+  background-color: green !important; }
+
+.p-84-88 {
+  background-color: green !important; }
+
+.p-84-89 {
+  background-color: green !important; }
+
+.p-84-90 {
+  background-color: green !important; }
+
+.p-85-60 {
+  background-color: green !important; }
+
+.p-85-61 {
+  background-color: green !important; }
+
+.p-85-62 {
+  background-color: green !important; }
+
+.p-85-63 {
+  background-color: green !important; }
+
+.p-85-64 {
+  background-color: green !important; }
+
+.p-85-65 {
+  background-color: green !important; }
+
+.p-85-66 {
+  background-color: green !important; }
+
+.p-85-67 {
+  background-color: green !important; }
+
+.p-85-68 {
+  background-color: green !important; }
+
+.p-85-69 {
+  background-color: green !important; }
+
+.p-85-70 {
+  background-color: green !important; }
+
+.p-85-71 {
+  background-color: green !important; }
+
+.p-85-72 {
+  background-color: green !important; }
+
+.p-85-73 {
+  background-color: green !important; }
+
+.p-85-74 {
+  background-color: green !important; }
+
+.p-85-75 {
+  background-color: green !important; }
+
+.p-85-76 {
+  background-color: green !important; }
+
+.p-85-77 {
+  background-color: green !important; }
+
+.p-85-78 {
+  background-color: green !important; }
+
+.p-85-79 {
+  background-color: green !important; }
+
+.p-85-80 {
+  background-color: green !important; }
+
+.p-85-81 {
+  background-color: green !important; }
+
+.p-85-82 {
+  background-color: green !important; }
+
+.p-85-83 {
+  background-color: green !important; }
+
+.p-85-84 {
+  background-color: green !important; }
+
+.p-85-85 {
+  background-color: green !important; }
+
+.p-85-86 {
+  background-color: green !important; }
+
+.p-85-87 {
+  background-color: green !important; }
+
+.p-85-88 {
+  background-color: green !important; }
+
+.p-85-89 {
+  background-color: green !important; }
+
+.p-85-90 {
+  background-color: green !important; }
+
+.p-86-60 {
+  background-color: green !important; }
+
+.p-86-61 {
+  background-color: green !important; }
+
+.p-86-62 {
+  background-color: green !important; }
+
+.p-86-63 {
+  background-color: green !important; }
+
+.p-86-64 {
+  background-color: green !important; }
+
+.p-86-65 {
+  background-color: green !important; }
+
+.p-86-66 {
+  background-color: green !important; }
+
+.p-86-67 {
+  background-color: green !important; }
+
+.p-86-68 {
+  background-color: green !important; }
+
+.p-86-69 {
+  background-color: green !important; }
+
+.p-86-70 {
+  background-color: green !important; }
+
+.p-86-71 {
+  background-color: green !important; }
+
+.p-86-72 {
+  background-color: green !important; }
+
+.p-86-73 {
+  background-color: green !important; }
+
+.p-86-74 {
+  background-color: green !important; }
+
+.p-86-75 {
+  background-color: green !important; }
+
+.p-86-76 {
+  background-color: green !important; }
+
+.p-86-77 {
+  background-color: green !important; }
+
+.p-86-78 {
+  background-color: green !important; }
+
+.p-86-79 {
+  background-color: green !important; }
+
+.p-86-80 {
+  background-color: green !important; }
+
+.p-86-81 {
+  background-color: green !important; }
+
+.p-86-82 {
+  background-color: green !important; }
+
+.p-86-83 {
+  background-color: green !important; }
+
+.p-86-84 {
+  background-color: green !important; }
+
+.p-86-85 {
+  background-color: green !important; }
+
+.p-86-86 {
+  background-color: green !important; }
+
+.p-86-87 {
+  background-color: green !important; }
+
+.p-86-88 {
+  background-color: green !important; }
+
+.p-86-89 {
+  background-color: green !important; }
+
+.p-86-90 {
+  background-color: green !important; }
+
+.p-87-60 {
+  background-color: green !important; }
+
+.p-87-61 {
+  background-color: green !important; }
+
+.p-87-62 {
+  background-color: green !important; }
+
+.p-87-63 {
+  background-color: green !important; }
+
+.p-87-64 {
+  background-color: green !important; }
+
+.p-87-65 {
+  background-color: green !important; }
+
+.p-87-66 {
+  background-color: green !important; }
+
+.p-87-67 {
+  background-color: green !important; }
+
+.p-87-68 {
+  background-color: green !important; }
+
+.p-87-69 {
+  background-color: green !important; }
+
+.p-87-70 {
+  background-color: green !important; }
+
+.p-87-71 {
+  background-color: green !important; }
+
+.p-87-72 {
+  background-color: green !important; }
+
+.p-87-73 {
+  background-color: green !important; }
+
+.p-87-74 {
+  background-color: green !important; }
+
+.p-87-75 {
+  background-color: green !important; }
+
+.p-87-76 {
+  background-color: green !important; }
+
+.p-87-77 {
+  background-color: green !important; }
+
+.p-87-78 {
+  background-color: green !important; }
+
+.p-87-79 {
+  background-color: green !important; }
+
+.p-87-80 {
+  background-color: green !important; }
+
+.p-87-81 {
+  background-color: green !important; }
+
+.p-87-82 {
+  background-color: green !important; }
+
+.p-87-83 {
+  background-color: green !important; }
+
+.p-87-84 {
+  background-color: green !important; }
+
+.p-87-85 {
+  background-color: green !important; }
+
+.p-87-86 {
+  background-color: green !important; }
+
+.p-87-87 {
+  background-color: green !important; }
+
+.p-87-88 {
+  background-color: green !important; }
+
+.p-87-89 {
+  background-color: green !important; }
+
+.p-87-90 {
+  background-color: green !important; }
+
+.p-88-60 {
+  background-color: green !important; }
+
+.p-88-61 {
+  background-color: green !important; }
+
+.p-88-62 {
+  background-color: green !important; }
+
+.p-88-63 {
+  background-color: green !important; }
+
+.p-88-64 {
+  background-color: green !important; }
+
+.p-88-65 {
+  background-color: green !important; }
+
+.p-88-66 {
+  background-color: green !important; }
+
+.p-88-67 {
+  background-color: green !important; }
+
+.p-88-68 {
+  background-color: green !important; }
+
+.p-88-69 {
+  background-color: green !important; }
+
+.p-88-70 {
+  background-color: green !important; }
+
+.p-88-71 {
+  background-color: green !important; }
+
+.p-88-72 {
+  background-color: green !important; }
+
+.p-88-73 {
+  background-color: green !important; }
+
+.p-88-74 {
+  background-color: green !important; }
+
+.p-88-75 {
+  background-color: green !important; }
+
+.p-88-76 {
+  background-color: green !important; }
+
+.p-88-77 {
+  background-color: green !important; }
+
+.p-88-78 {
+  background-color: green !important; }
+
+.p-88-79 {
+  background-color: green !important; }
+
+.p-88-80 {
+  background-color: green !important; }
+
+.p-88-81 {
+  background-color: green !important; }
+
+.p-88-82 {
+  background-color: green !important; }
+
+.p-88-83 {
+  background-color: green !important; }
+
+.p-88-84 {
+  background-color: green !important; }
+
+.p-88-85 {
+  background-color: green !important; }
+
+.p-88-86 {
+  background-color: green !important; }
+
+.p-88-87 {
+  background-color: green !important; }
+
+.p-88-88 {
+  background-color: green !important; }
+
+.p-88-89 {
+  background-color: green !important; }
+
+.p-88-90 {
+  background-color: green !important; }
+
+.p-89-60 {
+  background-color: green !important; }
+
+.p-89-61 {
+  background-color: green !important; }
+
+.p-89-62 {
+  background-color: green !important; }
+
+.p-89-63 {
+  background-color: green !important; }
+
+.p-89-64 {
+  background-color: green !important; }
+
+.p-89-65 {
+  background-color: green !important; }
+
+.p-89-66 {
+  background-color: green !important; }
+
+.p-89-67 {
+  background-color: green !important; }
+
+.p-89-68 {
+  background-color: green !important; }
+
+.p-89-69 {
+  background-color: green !important; }
+
+.p-89-70 {
+  background-color: green !important; }
+
+.p-89-71 {
+  background-color: green !important; }
+
+.p-89-72 {
+  background-color: green !important; }
+
+.p-89-73 {
+  background-color: green !important; }
+
+.p-89-74 {
+  background-color: green !important; }
+
+.p-89-75 {
+  background-color: green !important; }
+
+.p-89-76 {
+  background-color: green !important; }
+
+.p-89-77 {
+  background-color: green !important; }
+
+.p-89-78 {
+  background-color: green !important; }
+
+.p-89-79 {
+  background-color: green !important; }
+
+.p-89-80 {
+  background-color: green !important; }
+
+.p-89-81 {
+  background-color: green !important; }
+
+.p-89-82 {
+  background-color: green !important; }
+
+.p-89-83 {
+  background-color: green !important; }
+
+.p-89-84 {
+  background-color: green !important; }
+
+.p-89-85 {
+  background-color: green !important; }
+
+.p-89-86 {
+  background-color: green !important; }
+
+.p-89-87 {
+  background-color: green !important; }
+
+.p-89-88 {
+  background-color: green !important; }
+
+.p-89-89 {
+  background-color: green !important; }
+
+.p-89-90 {
+  background-color: green !important; }
+
+.p-90-60 {
+  background-color: green !important; }
+
+.p-90-61 {
+  background-color: green !important; }
+
+.p-90-62 {
+  background-color: green !important; }
+
+.p-90-63 {
+  background-color: green !important; }
+
+.p-90-64 {
+  background-color: green !important; }
+
+.p-90-65 {
+  background-color: green !important; }
+
+.p-90-66 {
+  background-color: green !important; }
+
+.p-90-67 {
+  background-color: green !important; }
+
+.p-90-68 {
+  background-color: green !important; }
+
+.p-90-69 {
+  background-color: green !important; }
+
+.p-90-70 {
+  background-color: green !important; }
+
+.p-90-71 {
+  background-color: green !important; }
+
+.p-90-72 {
+  background-color: green !important; }
+
+.p-90-73 {
+  background-color: green !important; }
+
+.p-90-74 {
+  background-color: green !important; }
+
+.p-90-75 {
+  background-color: green !important; }
+
+.p-90-76 {
+  background-color: green !important; }
+
+.p-90-77 {
+  background-color: green !important; }
+
+.p-90-78 {
+  background-color: green !important; }
+
+.p-90-79 {
+  background-color: green !important; }
+
+.p-90-80 {
+  background-color: green !important; }
+
+.p-90-81 {
+  background-color: green !important; }
+
+.p-90-82 {
+  background-color: green !important; }
+
+.p-90-83 {
+  background-color: green !important; }
+
+.p-90-84 {
+  background-color: green !important; }
+
+.p-90-85 {
+  background-color: green !important; }
+
+.p-90-86 {
+  background-color: green !important; }
+
+.p-90-87 {
+  background-color: green !important; }
+
+.p-90-88 {
+  background-color: green !important; }
+
+.p-90-89 {
+  background-color: green !important; }
+
+.p-90-90 {
+  background-color: green !important; }
+
+.p-91-61 {
+  background-color: green !important; }
+
+.p-91-62 {
+  background-color: green !important; }
+
+.p-91-63 {
+  background-color: green !important; }
+
+.p-91-64 {
+  background-color: green !important; }
+
+.p-91-65 {
+  background-color: green !important; }
+
+.p-91-66 {
+  background-color: green !important; }
+
+.p-91-67 {
+  background-color: green !important; }
+
+.p-91-68 {
+  background-color: green !important; }
+
+.p-91-69 {
+  background-color: green !important; }
+
+.p-91-70 {
+  background-color: green !important; }
+
+.p-91-71 {
+  background-color: green !important; }
+
+.p-91-72 {
+  background-color: green !important; }
+
+.p-91-73 {
+  background-color: green !important; }
+
+.p-91-74 {
+  background-color: green !important; }
+
+.p-91-75 {
+  background-color: green !important; }
+
+.p-91-76 {
+  background-color: green !important; }
+
+.p-91-77 {
+  background-color: green !important; }
+
+.p-91-78 {
+  background-color: green !important; }
+
+.p-91-79 {
+  background-color: green !important; }
+
+.p-91-80 {
+  background-color: green !important; }
+
+.p-91-81 {
+  background-color: green !important; }
+
+.p-91-82 {
+  background-color: green !important; }
+
+.p-91-83 {
+  background-color: green !important; }
+
+.p-91-84 {
+  background-color: green !important; }
+
+.p-91-85 {
+  background-color: green !important; }
+
+.p-91-86 {
+  background-color: green !important; }
+
+.p-91-87 {
+  background-color: green !important; }
+
+.p-91-88 {
+  background-color: green !important; }
+
+.p-91-89 {
+  background-color: green !important; }
+
+.p-92-61 {
+  background-color: green !important; }
+
+.p-92-62 {
+  background-color: green !important; }
+
+.p-92-63 {
+  background-color: green !important; }
+
+.p-92-64 {
+  background-color: green !important; }
+
+.p-92-65 {
+  background-color: green !important; }
+
+.p-92-66 {
+  background-color: green !important; }
+
+.p-92-67 {
+  background-color: green !important; }
+
+.p-92-68 {
+  background-color: green !important; }
+
+.p-92-69 {
+  background-color: green !important; }
+
+.p-92-70 {
+  background-color: green !important; }
+
+.p-92-71 {
+  background-color: green !important; }
+
+.p-92-72 {
+  background-color: green !important; }
+
+.p-92-73 {
+  background-color: green !important; }
+
+.p-92-74 {
+  background-color: green !important; }
+
+.p-92-75 {
+  background-color: green !important; }
+
+.p-92-76 {
+  background-color: green !important; }
+
+.p-92-77 {
+  background-color: green !important; }
+
+.p-92-78 {
+  background-color: green !important; }
+
+.p-92-79 {
+  background-color: green !important; }
+
+.p-92-80 {
+  background-color: green !important; }
+
+.p-92-81 {
+  background-color: green !important; }
+
+.p-92-82 {
+  background-color: green !important; }
+
+.p-92-83 {
+  background-color: green !important; }
+
+.p-92-84 {
+  background-color: green !important; }
+
+.p-92-85 {
+  background-color: green !important; }
+
+.p-92-86 {
+  background-color: green !important; }
+
+.p-92-87 {
+  background-color: green !important; }
+
+.p-92-88 {
+  background-color: green !important; }
+
+.p-92-89 {
+  background-color: green !important; }
+
+.p-93-61 {
+  background-color: green !important; }
+
+.p-93-62 {
+  background-color: green !important; }
+
+.p-93-63 {
+  background-color: green !important; }
+
+.p-93-64 {
+  background-color: green !important; }
+
+.p-93-65 {
+  background-color: green !important; }
+
+.p-93-66 {
+  background-color: green !important; }
+
+.p-93-67 {
+  background-color: green !important; }
+
+.p-93-68 {
+  background-color: green !important; }
+
+.p-93-69 {
+  background-color: green !important; }
+
+.p-93-70 {
+  background-color: green !important; }
+
+.p-93-71 {
+  background-color: green !important; }
+
+.p-93-72 {
+  background-color: green !important; }
+
+.p-93-73 {
+  background-color: green !important; }
+
+.p-93-74 {
+  background-color: green !important; }
+
+.p-93-75 {
+  background-color: green !important; }
+
+.p-93-76 {
+  background-color: green !important; }
+
+.p-93-77 {
+  background-color: green !important; }
+
+.p-93-78 {
+  background-color: green !important; }
+
+.p-93-79 {
+  background-color: green !important; }
+
+.p-93-80 {
+  background-color: green !important; }
+
+.p-93-81 {
+  background-color: green !important; }
+
+.p-93-82 {
+  background-color: green !important; }
+
+.p-93-83 {
+  background-color: green !important; }
+
+.p-93-84 {
+  background-color: green !important; }
+
+.p-93-85 {
+  background-color: green !important; }
+
+.p-93-86 {
+  background-color: green !important; }
+
+.p-93-87 {
+  background-color: green !important; }
+
+.p-93-88 {
+  background-color: green !important; }
+
+.p-93-89 {
+  background-color: green !important; }
+
+.p-94-62 {
+  background-color: green !important; }
+
+.p-94-63 {
+  background-color: green !important; }
+
+.p-94-64 {
+  background-color: green !important; }
+
+.p-94-65 {
+  background-color: green !important; }
+
+.p-94-66 {
+  background-color: green !important; }
+
+.p-94-67 {
+  background-color: green !important; }
+
+.p-94-68 {
+  background-color: green !important; }
+
+.p-94-69 {
+  background-color: green !important; }
+
+.p-94-70 {
+  background-color: green !important; }
+
+.p-94-71 {
+  background-color: green !important; }
+
+.p-94-72 {
+  background-color: green !important; }
+
+.p-94-73 {
+  background-color: green !important; }
+
+.p-94-74 {
+  background-color: green !important; }
+
+.p-94-75 {
+  background-color: green !important; }
+
+.p-94-76 {
+  background-color: green !important; }
+
+.p-94-77 {
+  background-color: green !important; }
+
+.p-94-78 {
+  background-color: green !important; }
+
+.p-94-79 {
+  background-color: green !important; }
+
+.p-94-80 {
+  background-color: green !important; }
+
+.p-94-81 {
+  background-color: green !important; }
+
+.p-94-82 {
+  background-color: green !important; }
+
+.p-94-83 {
+  background-color: green !important; }
+
+.p-94-84 {
+  background-color: green !important; }
+
+.p-94-85 {
+  background-color: green !important; }
+
+.p-94-86 {
+  background-color: green !important; }
+
+.p-94-87 {
+  background-color: green !important; }
+
+.p-94-88 {
+  background-color: green !important; }
+
+.p-95-62 {
+  background-color: green !important; }
+
+.p-95-63 {
+  background-color: green !important; }
+
+.p-95-64 {
+  background-color: green !important; }
+
+.p-95-65 {
+  background-color: green !important; }
+
+.p-95-66 {
+  background-color: green !important; }
+
+.p-95-67 {
+  background-color: green !important; }
+
+.p-95-68 {
+  background-color: green !important; }
+
+.p-95-69 {
+  background-color: green !important; }
+
+.p-95-70 {
+  background-color: green !important; }
+
+.p-95-71 {
+  background-color: green !important; }
+
+.p-95-72 {
+  background-color: green !important; }
+
+.p-95-73 {
+  background-color: green !important; }
+
+.p-95-74 {
+  background-color: green !important; }
+
+.p-95-75 {
+  background-color: green !important; }
+
+.p-95-76 {
+  background-color: green !important; }
+
+.p-95-77 {
+  background-color: green !important; }
+
+.p-95-78 {
+  background-color: green !important; }
+
+.p-95-79 {
+  background-color: green !important; }
+
+.p-95-80 {
+  background-color: green !important; }
+
+.p-95-81 {
+  background-color: green !important; }
+
+.p-95-82 {
+  background-color: green !important; }
+
+.p-95-83 {
+  background-color: green !important; }
+
+.p-95-84 {
+  background-color: green !important; }
+
+.p-95-85 {
+  background-color: green !important; }
+
+.p-95-86 {
+  background-color: green !important; }
+
+.p-95-87 {
+  background-color: green !important; }
+
+.p-95-88 {
+  background-color: green !important; }
+
+.p-96-63 {
+  background-color: green !important; }
+
+.p-96-64 {
+  background-color: green !important; }
+
+.p-96-65 {
+  background-color: green !important; }
+
+.p-96-66 {
+  background-color: green !important; }
+
+.p-96-67 {
+  background-color: green !important; }
+
+.p-96-68 {
+  background-color: green !important; }
+
+.p-96-69 {
+  background-color: green !important; }
+
+.p-96-70 {
+  background-color: green !important; }
+
+.p-96-71 {
+  background-color: green !important; }
+
+.p-96-72 {
+  background-color: green !important; }
+
+.p-96-73 {
+  background-color: green !important; }
+
+.p-96-74 {
+  background-color: green !important; }
+
+.p-96-75 {
+  background-color: green !important; }
+
+.p-96-76 {
+  background-color: green !important; }
+
+.p-96-77 {
+  background-color: green !important; }
+
+.p-96-78 {
+  background-color: green !important; }
+
+.p-96-79 {
+  background-color: green !important; }
+
+.p-96-80 {
+  background-color: green !important; }
+
+.p-96-81 {
+  background-color: green !important; }
+
+.p-96-82 {
+  background-color: green !important; }
+
+.p-96-83 {
+  background-color: green !important; }
+
+.p-96-84 {
+  background-color: green !important; }
+
+.p-96-85 {
+  background-color: green !important; }
+
+.p-96-86 {
+  background-color: green !important; }
+
+.p-96-87 {
+  background-color: green !important; }
+
+.p-97-64 {
+  background-color: green !important; }
+
+.p-97-65 {
+  background-color: green !important; }
+
+.p-97-66 {
+  background-color: green !important; }
+
+.p-97-67 {
+  background-color: green !important; }
+
+.p-97-68 {
+  background-color: green !important; }
+
+.p-97-69 {
+  background-color: green !important; }
+
+.p-97-70 {
+  background-color: green !important; }
+
+.p-97-71 {
+  background-color: green !important; }
+
+.p-97-72 {
+  background-color: green !important; }
+
+.p-97-73 {
+  background-color: green !important; }
+
+.p-97-74 {
+  background-color: green !important; }
+
+.p-97-75 {
+  background-color: green !important; }
+
+.p-97-76 {
+  background-color: green !important; }
+
+.p-97-77 {
+  background-color: green !important; }
+
+.p-97-78 {
+  background-color: green !important; }
+
+.p-97-79 {
+  background-color: green !important; }
+
+.p-97-80 {
+  background-color: green !important; }
+
+.p-97-81 {
+  background-color: green !important; }
+
+.p-97-82 {
+  background-color: green !important; }
+
+.p-97-83 {
+  background-color: green !important; }
+
+.p-97-84 {
+  background-color: green !important; }
+
+.p-97-85 {
+  background-color: green !important; }
+
+.p-97-86 {
+  background-color: green !important; }
+
+.p-98-65 {
+  background-color: green !important; }
+
+.p-98-66 {
+  background-color: green !important; }
+
+.p-98-67 {
+  background-color: green !important; }
+
+.p-98-68 {
+  background-color: green !important; }
+
+.p-98-69 {
+  background-color: green !important; }
+
+.p-98-70 {
+  background-color: green !important; }
+
+.p-98-71 {
+  background-color: green !important; }
+
+.p-98-72 {
+  background-color: green !important; }
+
+.p-98-73 {
+  background-color: green !important; }
+
+.p-98-74 {
+  background-color: green !important; }
+
+.p-98-75 {
+  background-color: green !important; }
+
+.p-98-76 {
+  background-color: green !important; }
+
+.p-98-77 {
+  background-color: green !important; }
+
+.p-98-78 {
+  background-color: green !important; }
+
+.p-98-79 {
+  background-color: green !important; }
+
+.p-98-80 {
+  background-color: green !important; }
+
+.p-98-81 {
+  background-color: green !important; }
+
+.p-98-82 {
+  background-color: green !important; }
+
+.p-98-83 {
+  background-color: green !important; }
+
+.p-98-84 {
+  background-color: green !important; }
+
+.p-98-85 {
+  background-color: green !important; }
+
+.p-99-66 {
+  background-color: green !important; }
+
+.p-99-67 {
+  background-color: green !important; }
+
+.p-99-68 {
+  background-color: green !important; }
+
+.p-99-69 {
+  background-color: green !important; }
+
+.p-99-70 {
+  background-color: green !important; }
+
+.p-99-71 {
+  background-color: green !important; }
+
+.p-99-72 {
+  background-color: green !important; }
+
+.p-99-73 {
+  background-color: green !important; }
+
+.p-99-74 {
+  background-color: green !important; }
+
+.p-99-75 {
+  background-color: green !important; }
+
+.p-99-76 {
+  background-color: green !important; }
+
+.p-99-77 {
+  background-color: green !important; }
+
+.p-99-78 {
+  background-color: green !important; }
+
+.p-99-79 {
+  background-color: green !important; }
+
+.p-99-80 {
+  background-color: green !important; }
+
+.p-99-81 {
+  background-color: green !important; }
+
+.p-99-82 {
+  background-color: green !important; }
+
+.p-99-83 {
+  background-color: green !important; }
+
+.p-99-84 {
+  background-color: green !important; }
+
+.p-100-67 {
+  background-color: green !important; }
+
+.p-100-68 {
+  background-color: green !important; }
+
+.p-100-69 {
+  background-color: green !important; }
+
+.p-100-70 {
+  background-color: green !important; }
+
+.p-100-71 {
+  background-color: green !important; }
+
+.p-100-72 {
+  background-color: green !important; }
+
+.p-100-73 {
+  background-color: green !important; }
+
+.p-100-74 {
+  background-color: green !important; }
+
+.p-100-75 {
+  background-color: green !important; }
+
+.p-100-76 {
+  background-color: green !important; }
+
+.p-100-77 {
+  background-color: green !important; }
+
+.p-100-78 {
+  background-color: green !important; }
+
+.p-100-79 {
+  background-color: green !important; }
+
+.p-100-80 {
+  background-color: green !important; }
+
+.p-100-81 {
+  background-color: green !important; }
+
+.p-100-82 {
+  background-color: green !important; }
+
+.p-100-83 {
+  background-color: green !important; }
+
+.p-101-69 {
+  background-color: green !important; }
+
+.p-101-70 {
+  background-color: green !important; }
+
+.p-101-71 {
+  background-color: green !important; }
+
+.p-101-72 {
+  background-color: green !important; }
+
+.p-101-73 {
+  background-color: green !important; }
+
+.p-101-74 {
+  background-color: green !important; }
+
+.p-101-75 {
+  background-color: green !important; }
+
+.p-101-76 {
+  background-color: green !important; }
+
+.p-101-77 {
+  background-color: green !important; }
+
+.p-101-78 {
+  background-color: green !important; }
+
+.p-101-79 {
+  background-color: green !important; }
+
+.p-101-80 {
+  background-color: green !important; }
+
+.p-101-81 {
+  background-color: green !important; }
+
+.p-102-71 {
+  background-color: green !important; }
+
+.p-102-72 {
+  background-color: green !important; }
+
+.p-102-73 {
+  background-color: green !important; }
+
+.p-102-74 {
+  background-color: green !important; }
+
+.p-102-75 {
+  background-color: green !important; }
+
+.p-102-76 {
+  background-color: green !important; }
+
+.p-102-77 {
+  background-color: green !important; }
+
+.p-102-78 {
+  background-color: green !important; }
+
+.p-102-79 {
+  background-color: green !important; }
+
+.row {
+  display: inline-block; }
+
+.pixel {
+  height: 2px;
+  width: 2px;
+  background-color: red;
+  margin: 0;
+  padding: 0; }
