@@ -1,6 +1,4 @@
-/*
-  from https://unindented.org/articles/trigonometry-in-sass/
-*/
+// from https://unindented.org/articles/trigonometry-in-sass/
 
 @function pow($number, $exp) {
   $value: 1;
@@ -65,9 +63,7 @@
   @return sin($angle) / cos($angle);
 }
 
-/*
-  from http://www.antimath.info/css/sass-sqrt-function/
-*/
+// from http://www.antimath.info/css/sass-sqrt-function/
 @function sqrt($r) {
   $x0: 1;
   $x1: $x0;

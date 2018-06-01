@@ -1,0 +1,13 @@
+$sphere1: (
+	pos: (0, 0, -4),
+	radius: 2,
+	col: blue
+);
+
+$sphere2: (
+	pos: (1, 0, -3),
+	radius: 2,
+	col: green
+);
+
+$spheres: ($sphere1, $sphere2);

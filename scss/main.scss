@@ -1,5 +1,6 @@
 @import 'trig';
 @import 'consts';
+@import 'spheres';
 
 @function dot($vector-a, $vector-b) {
 	$sum: 0;
@@ -25,20 +26,6 @@
 @function distance-squared($vector) {
 	@return dot($vector, $vector);
 }
-
-$sphere1: (
-	pos: (0, 0, -4),
-	radius: 2,
-	col: blue
-);
-
-$sphere2: (
-	pos: (1, 0, -3),
-	radius: 2,
-	col: green
-);
-
-$spheres: ($sphere1, $sphere2);
 
 @function collide($ray-direction) {
 
