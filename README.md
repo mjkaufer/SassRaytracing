@@ -1,9 +1,9 @@
-# Raytracing with SASS
+# Raytracing with Sass
 
 ## Features
-* Basic diffuse ray tracing
+* Simple diffuse ray tracing
 * Define custom spheres & point light sources
-* All calculations preprocessed in SASS
+* All calculations preprocessed in Sass
 
 ## Usage
 
