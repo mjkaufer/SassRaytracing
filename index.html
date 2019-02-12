@@ -9,13 +9,14 @@
 		<p>By <a href="https://github.com/mjkaufer">Matthew Kaufer</a></p>
 		<p>Add your own shapes by cloning <a href="https://github.com/mjkaufer/SassRaytracing">the repo</a> and following the instructions in the readme</p>
 
+		<div id="container"></div>
 		<script>
-			var width = 200;
-			var height = 200;
+			var width = 100;
+			var height = 100;
 			// sass indexes at 1 so we'll follow their lead
 			for (var i = 1; i <= height; i++) {
 				var row = document.createElement('div');
-				row.classList.add('row');
+				row.classList.add('col');
 
 				for (var j = 1; j <= width; j++) {
 					var pixel = document.createElement('div');
@@ -23,7 +24,7 @@
 					pixel.id = 'p-' + j + '-' + i;
 					row.appendChild(pixel);
 				}
-				document.body.appendChild(row);
+				document.getElementById('container').appendChild(row);
 			}
 
 		</script>

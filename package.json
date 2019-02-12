@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/mjkaufer/SassRaytracing#readme",
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/main.scss build/main.css",
+    "build-css": "node-sass --include-path scss scss/main.scss build/main.css --output-style compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   }
 }

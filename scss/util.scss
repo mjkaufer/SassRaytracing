@@ -57,3 +57,17 @@
 
     @return $vec;
 }
+
+@function colors-equal($c1, $c2) {
+    @if length($c1) != length($c2) {
+        @return false;
+    }
+
+    @for $i from 1 through length($c1) {
+        @if nth($c1, $i) - nth($c2, $i) > 0.000001 {
+            @return false;
+        }
+    }
+
+    @return true;
+}

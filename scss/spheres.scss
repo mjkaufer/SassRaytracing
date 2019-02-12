@@ -10,16 +10,55 @@
 // 	col: (0.8, 0.8, 0.8)
 // );
 
-$sphere1: (
+// todo, automatically create these with interpolation or something
+
+$sphere1-1: (
     pos: (1, 1, -5.5),
     radius: 3,
     col: (1, 0.2, 1)
 );
 
-$sphere2: (
+$sphere1-2: (
+    pos: (0.5, 1.25, -5.375),
+    radius: 3,
+    col: (1, 0.2, 1)
+);
+
+$sphere1-3: (
+    pos: (0, 1.5, -5.25),
+    radius: 3,
+    col: (1, 0.2, 1)
+);
+
+$sphere1-4: (
+    pos: (0, 1.5, -5.125),
+    radius: 3,
+    col: (1, 0.2, 1)
+);
+
+$sphere2-1: (
     pos: (-4, 1, -6),
     radius: 2,
     col: (0.8, 0.8, 0.8)
 );
 
-$spheres: ($sphere1, $sphere2);
+$sphere2-2: (
+    pos: (-4, 1.5, -6),
+    radius: 2,
+    col: (0.8, 0.8, 0.8)
+);
+
+$sphere2-3: (
+    pos: (-4, 2, -6),
+    radius: 2,
+    col: (0.8, 0.8, 0.8)
+);
+
+$sphere2-4: (
+    pos: (-4, 2.5, -6),
+    radius: 2,
+    col: (0.8, 0.8, 0.8)
+);
+
+// $spheres: ($sphere1, $sphere2);
+$all-spheres: (($sphere1-1, $sphere2-1), ($sphere1-2, $sphere2-2), ($sphere1-3, $sphere2-3), ($sphere1-4, $sphere2-4));

@@ -4,14 +4,14 @@
 @import 'lights';
 @import 'util';
 
-@function collide($ray-direction, $ray-origin) {
+@function collide($ray-direction, $ray-origin, $current-spheres) {
 
 	$last-t: null;
 	$last-i: null;
 
 	/* sass indexes at 1; let's be polite */
 	$i: 1;
-	@each $sphere in $spheres {
+	@each $sphere in $current-spheres {
 
 		$relative-ray-origin: sub($ray-origin, map-get($sphere, pos));
 
@@ -37,7 +37,7 @@
 		@return (null, null, null);	
 	}
 
-	$closest-sphere: nth($spheres, $last-i);
+	$closest-sphere: nth($current-spheres, $last-i);
 	$relative-ray-origin: sub($ray-origin, map-get($closest-sphere, pos));
 
 	$intersection-point: add(mult-scalar($ray-direction, $last-t), $relative-ray-origin);
@@ -56,61 +56,99 @@ $origin: (0, 0, 0);
 
 @for $r from 1 through $height {
 	@for $c from 1 through $width {
-		$x: $c * 2 * $k / $width - $k;
-		$y: -1 * ($r * 2 * $k / $height - $k);
+		$colors: ();
 
-		$ray: normalize(($x, $y, $z));
+		@for $sphere-index from 1 through length($all-spheres) {
+			$current-spheres: nth($all-spheres, $sphere-index);
+			$x: $c * 2 * $k / $width - $k;
+			$y: -1 * ($r * 2 * $k / $height - $k);
 
-		$collision-data: collide($ray, $origin);
+			$ray: normalize(($x, $y, $z));
 
-		$sphere-index: nth($collision-data, 2);
-		$collision-position: nth($collision-data, 3);
+			$collision-data: collide($ray, $origin, $current-spheres);
 
-		$current-color: (0, 0, 0);
+			$colliding-sphere-index: nth($collision-data, 2);
+			$collision-position: nth($collision-data, 3);
 
-		@if $sphere-index != null {
-			$sphere: nth($spheres, $sphere-index);
-			$n-vector: get-sphere-normal($sphere, $collision-position);
-			$sphere-color: map-get($sphere, col);
+			$current-color: (0, 0, 0);
 
-			// $current-color: add($sphere-color, $current-color);
+			@if $colliding-sphere-index != null {
+				$sphere: nth($current-spheres, $colliding-sphere-index);
+				$n-vector: get-sphere-normal($sphere, $collision-position);
+				$sphere-color: map-get($sphere, col);
 
-			@each $light in $lights {
-				$light-origin: map-get($light, pos);
-				$light-direction: sub($collision-position, $light-origin);
+				// $current-color: add($sphere-color, $current-color);
+
+				@each $light in $lights {
+					$light-origin: map-get($light, pos);
+					$light-direction: sub($collision-position, $light-origin);
 
 
-				$light-collision: collide($light-direction, $light-origin);
+					$light-collision: collide($light-direction, $light-origin, $current-spheres);
 
-				$light-collision-position: nth($light-collision, 3);
+					$light-collision-position: nth($light-collision, 3);
 
-				@if $light-collision-position != null {
-					$position-difference: distance-squared(sub($collision-position, $light-collision-position));
+					@if $light-collision-position != null {
+						$position-difference: distance-squared(sub($collision-position, $light-collision-position));
 
-					// if the collisions are basically the same, to account for floating point error
-					@if $position-difference < 0.05 {
-						$l-vector: normalize(sub($light-origin, $collision-position));
-						$light-color: mult-scalar(map-get($light, col), max(dot($l-vector, $n-vector), 0));
-						$light-color: pairwise-mult($light-color, $sphere-color);
+						// if the collisions are basically the same, to account for floating point error
+						@if $position-difference < 0.05 {
+							$l-vector: normalize(sub($light-origin, $collision-position));
+							$light-color: mult-scalar(map-get($light, col), max(dot($l-vector, $n-vector), 0));
+							$light-color: pairwise-mult($light-color, $sphere-color);
 
-						$current-color: add($current-color, $light-color);
+							$current-color: add($current-color, $light-color);
+						}
+					}
+				}
+
+				$colors: append($colors, $current-color);
+			} @else {
+				$colors: append($colors, ($bg));
+			}
+		}
+
+		$all-bg: true;
+		$all-same-color: false;
+		$first-color: nth($colors, 1);
+
+		@for $i from 1 through length($colors) {
+			@if not colors-equal(nth($colors, $i), $bg) {
+				$all-bg: false;
+			}
+			@if not colors-equal(nth($colors, $i), $first-color) {
+				$all-same-color: false;
+			}
+		}
+
+		@if $all-bg {
+
+		} @else if $all-same-color {
+			#p-#{$r}-#{$c} {
+				background-color: rgb(scale-to-rgb($first-color)...);
+			}
+		} @else {
+			@keyframes anim-#{$r}-#{$c} {
+				@for $i from 1 through length($colors) {
+					#{($i - 1) * 100 / length($colors)}% {
+						background-color: rgb(scale-to-rgb(nth($colors, $i))...);
 					}
 				}
 			}
 
-			@if $sphere-index != null {
-				#p-#{$r}-#{$c} {
-					background-color: rgb(scale-to-rgb($current-color)...);
-				}
-			}	
+			#p-#{$r}-#{$c} {
+				animation-name: anim-#{$r}-#{$c};
+				background-color: rgb(scale-to-rgb(nth($colors, 1))...);
+			}
 		}
+
 		
 	}
 }
 
 $n: render();
 
-.row {
+.col {
 	display: inline-block;
 }
 
@@ -120,4 +158,8 @@ $n: render();
 	background-color: rgb(scale-to-rgb($bg)...);
 	margin: 0;
 	padding: 0;
+	transition: 0.5s all;
+	animation-timing-function: linear;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
 }
